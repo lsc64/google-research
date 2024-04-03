@@ -27,9 +27,9 @@ import numpy as np
 import tensorflow as tf
 from tensorflow_privacy.privacy.analysis import compute_noise_from_budget_lib
 
-from dp_transfer import data_utils
-from dp_transfer import dataset
-from dp_transfer import utils
+import data_utils
+import dataset
+import utils
 
 
 

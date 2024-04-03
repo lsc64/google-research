@@ -15,12 +15,11 @@
 
 """Utilities related to data."""
 
-
-from dp_transfer.data_configs import cifar100_i21k
+from data_configs import cifar100_i21k
 
 
 def get_data_config(config):
-  if config.dataset == 'cifar100_i21k':
-    return cifar100_i21k.get_config()
-  else:
-    raise ValueError('Dataset not defined.')
+    if config.dataset == "cifar100_i21k":
+        return cifar100_i21k.get_config()
+    else:
+        raise ValueError("Dataset not defined.")

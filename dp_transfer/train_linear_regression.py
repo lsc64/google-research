@@ -25,10 +25,10 @@ import ml_collections
 import numpy as np
 import tensorflow as tf
 
-from dp_transfer import data_utils
-from dp_transfer import dataset
-from dp_transfer import linear_regression_sanitizer
-from dp_transfer import utils
+import data_utils
+import dataset
+import linear_regression_sanitizer
+import utils
 
 
 
